@@ -54,7 +54,7 @@ body {
   color: var(--logo-studio-top-color);
 }
 .logo-studio-footer {
-  color: var(--logo-studio-top-color);
+  color: var(--logo-studio-footer-color);
 }
 .list {
   list-style: none;
@@ -65,7 +65,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--main-font-color);
+  color: var(--main-font-color)
 }
 .top-background {
   background-color: var(--top-line-background-color);
@@ -74,12 +74,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  font-style: normal;
-  color: #434455;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
 }
 .hero-button:hover,
 .hero-button:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 .hero-background {
   background-color: var(--second-background-color);
@@ -134,6 +135,11 @@ body {
 }
 .footer-text {
   color: #f4f4fd;
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
 }
 .footer-background {
   background-color: var(--second-background-color);
@@ -158,6 +164,12 @@ body {
 .all-item {
   color: var(--all-buttons-text-color);
   background-color: var(--all-button-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .portfolio-h2{
 font-weight: 500;

@@ -10,6 +10,7 @@
   --logo-font-color: #4d5ae5;
   --logo-studio-top-color: #2e2f42;
   --logo-studio-footer-color: #f4f4fd;
+  --link-color: #434455;
 }
 
 body {
@@ -33,6 +34,12 @@ body {
 }
 .link {
   text-decoration: none;
+  
+}
+.contacts > .link {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -57,6 +64,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-font-color);
 }
 .top-background {
   background-color: var(--top-line-background-color);
@@ -83,20 +92,17 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hero-text-button {
+.hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-hero-button {
   cursor: pointer;
-}
-
-.hero-button-color {
   background-color: #4d5ae5;
 }
+
 
 /* заголовки Н2 */
 .title-h2 {
@@ -121,6 +127,7 @@ hero-button {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: var(--link-color);
 }
 .team-background {
   background-color: var(--background-team);
@@ -133,8 +140,7 @@ hero-button {
 }
 
 /* POTTFOLIO */
-.list {
-  list-style: none;
+.item {
   color: var(--portfolio-buttons-text-color);
   background-color: var(--background-team);
   font-family: "Roboto", sans-serif;
@@ -144,12 +150,19 @@ hero-button {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.list .list:hover,
-.list .list:focus {
+.list .item:hover,
+.list .item:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
-.all-list {
+.all-item {
   color: var(--all-buttons-text-color);
   background-color: var(--all-button-color);
+}
+.portfolio-h2{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--main-font-color)
 }

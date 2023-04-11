@@ -64,7 +64,7 @@ body {
 .top-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-font-color)
 }
@@ -74,7 +74,8 @@ body {
 .contacts {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  font-style: normal;
   letter-spacing: 0.02em;
   color: var(--link-color);
 }
@@ -98,7 +99,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -107,7 +108,7 @@ body {
 
 
 /* заголовки Н2 */
-.title-h2 {
+.title-section {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -117,29 +118,32 @@ body {
   text-transform: capitalize;
   color: var(--main-font-color);
 }
-.title-h3 {
+.title-list {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5x;
   letter-spacing: 0.02em;
   color: var(--main-font-color);
 }
 .title-li {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-color);
 }
 .team-background {
   background-color: var(--background-team);
 }
+.card-background{
+  background-color:#ffffff
+}
 .footer-text {
   color: #f4f4fd;
   font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .footer-background {
@@ -162,20 +166,11 @@ letter-spacing: 0.02em;
   color: #ffffff;
   background-color: #404bbf;
 }
-.all-item {
-  color: var(--all-buttons-text-color);
-  background-color: var(--all-button-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-.portfolio-h2{
+
+.portfolio-title{
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-font-color)
 }

@@ -15,6 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   color: #434455;
   background-color: var(--top-line-background-color);
 }
@@ -70,7 +71,6 @@ body {
   background-color: var(--top-line-background-color);
 }
 .contacts {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
@@ -79,7 +79,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  color: #ffffff;
   background-color: #404bbf;
 }
 .hero-background {
@@ -94,7 +94,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
-  font-family: "Roboto", sans-serif;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -124,8 +124,7 @@ body {
   color: var(--main-font-color);
 }
 .title-li {
-  font-weight: 400;
-  font-size: 16px;
+    font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-color);
@@ -138,9 +137,7 @@ body {
 }
 .footer-text {
   color: #f4f4fd;
-  font-family: 'Roboto';
-font-weight: 400;
-font-size: 16px;
+ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -152,8 +149,7 @@ letter-spacing: 0.02em;
 .item {
   color: var(--portfolio-buttons-text-color);
   background-color: var(--background-team);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
